@@ -1,0 +1,599 @@
+/* bintang artinya ALL tapi specificity paling rendah */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--textprimary);
+    scroll-behavior: smooth;
+}
+:root{
+    --color_primary: #F1B505 ;
+    --textprimary: #1b1b1b;
+    --textsecondary: #9f9f9f;  
+}
+a{
+    text-decoration: none;
+}
+.menu a:hover{
+    color: var(--color_primary);
+}
+
+/* header start */
+.bg_kuning{
+    background-color: #F1B505 ;
+}
+.header_font{
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 15px 0px;
+    color: var(--textprimary);
+}
+.bar{
+    padding: 15px 0px;
+    font-size: 1.2em;
+    display: none;
+    color: var(--textprimary);
+}
+.warna{
+    color: var var(--color_primary);
+}
+.container_head{
+    background-color:white;
+    padding: 1.5% 10%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.padding_proj{
+    padding: 5% 10%;
+    /* background-color: tan; */
+}
+
+.padding_logo{
+    padding: 7% 10%;
+    /* background-color: teal; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_menu{
+    /* background-color: violet; */
+    display: flex;
+    width: 50%;
+    /* justify-content: space-between; --> bisa pakai ini */
+
+}
+.login{
+    /* background-color: lime; */
+    margin-left: auto;
+    padding: 15px 15px;
+    text-transform: capitalize;
+    width: 10%;
+    text-align: center;
+    font-weight: 550;
+    border-radius: 35px;
+    border: 2px var(--color_primary) solid;
+}
+.login:hover{
+    background-color: var(--color_primary);
+    transition-duration: 0.5s;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin: 0px 30px;
+    list-style: none;
+    color: var(--textprimary);
+    font-size: 0.9em;
+    font-weight: 550;
+    text-transform: capitalize;
+    align-self: center;
+}
+.menu li:first-child{
+    margin-left: 0px;
+}  
+/* header end */
+
+
+
+/* jumbotron1 start */
+
+.jumbotron1 div{
+    /* background-color: lightgrey; */
+    flex: 1;
+}
+.jumbotron1{
+    display: flex;
+    /* padding-top: 15vh ; */
+    /* background-color: lightpink; */
+}
+.kiri{
+    padding-top: 15vh;
+    /* background-color: turquoise; */
+}
+.kiri div:first-child{
+    font-size: 3.5em;
+    line-height: 1.2;
+    font-weight: 500 ;
+    letter-spacing: 2px;
+    /* width: 70%; --> bisa pakai width untuk ngecilin atau padding*/
+    /* padding-right: 30%; */
+    color: var(--textprimary);
+    /* background-color: magenta; */
+}
+.kiri div:nth-child(2){
+    color: var(--textsecondary);
+    font-size: 1.2em;
+    margin-top: 3%;
+    /* padding-right: 25%; */
+    /* background-color: yellow; */
+}
+.kiri div:nth-child(3){
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: lime; */
+}
+.input{
+    font-size: 1em;
+    background-color: transparent;
+    border: transparent;
+    outline-color: var(--color_primary);
+    padding: 10px;
+    color: var(--textsecondary);
+    font-weight: 600;
+    padding: 10px;
+    margin: 0px 25px 0px 20px;
+    /* atas kanan bawah kiri */
+    /* vertikal horizontal */
+}
+
+/* .input:focus{
+    
+} */
+
+.kiri button{
+    font-size: 1em;
+    background-color: var(--color_primary);
+    border: transparent;
+    border-radius: 30px;
+    padding: 17px 35px;
+    font-weight: 700;
+    outline: transparent;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.kiri button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.kanan{
+    /* background-color: var(--color_primary); */
+    padding-top: 8vh;
+}
+/* jumbotron1 end */
+
+
+
+
+
+/* jumbotron2 start */
+.kiri2{
+    padding-top: 8vh;
+    padding-right: 15vh ;
+    /* background-color: var(--color_primary); */
+}
+.kanan2{
+    padding-top: 20vh;
+    /* background-color: turquoise; */
+}
+.kanan2 div:first-child{
+    font-size: 3em;
+    line-height: 1.2;
+    font-weight: 500 ;
+    letter-spacing: 2px;
+    /* width: 70%; --> bisa pakai width untuk ngecilin atau padding*/
+    /* padding-right: 30%; */
+    color: var(--textprimary);
+    /* background-color: magenta; */
+}
+.kanan2 div:nth-child(2){
+    color: var(--textsecondary);
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-top: 5%;
+    /* padding-right: 25%; */
+    /* background-color: yellow; */
+}
+.kanan2 button{
+    font-size: 1em;
+    background-color: var(--color_primary);
+    border: transparent;
+    border-radius: 30px;
+    padding: 17px 35px;
+    font-weight: 700;
+    outline: transparent;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.kanan2 button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.kanan2 div:nth-child(3){
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: lime; */
+}
+/*====================*/
+/* JUMBOTRON 2 END */
+/*====================*/
+
+
+
+/*====================*/
+/* JUMBOTRON 3 START */
+/*====================*/
+.kiri3{
+    padding-top: 20vh;
+    /* background-color: turquoise; */
+}
+.kiri3 div:first-child{
+    font-size: 3em;
+    line-height: 1.2;
+    font-weight: 500 ;
+    letter-spacing: 2px;
+    /* width: 70%; --> bisa pakai width untuk ngecilin atau padding*/
+    /* padding-right: 30%; */
+    color: var(--textprimary);
+    /* background-color: magenta; */
+}
+.kiri3 div:nth-child(2){
+    color: var(--textsecondary);
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-top: 5%;
+    padding-right: 25%;
+    /* background-color: yellow; */
+}
+.kiri3 div:nth-child(3){
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: lime; */
+}
+.kiri3 button{
+    font-size: 1em;
+    background-color: var(--color_primary);
+    border: transparent;
+    border-radius: 30px;
+    padding: 17px 35px;
+    font-weight: 700;
+    outline: transparent;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.kiri3 button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.kiri3 div:nth-child(3){
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: lime; */
+}
+.kanan3{
+    /* background-color: var(--color_primary); */
+    padding-top: 5vh;
+}
+/*====================*/
+/* JUMBOTRON 3 END */
+/*====================*/
+
+
+
+
+
+/*====================*/
+/* FREE_TRIAL START */
+/*====================*/
+.free{
+    margin: 7% 10%;
+    border-radius: 20px;
+    display: flex;
+    padding: 5% 5%;
+    transition: all 0.4s;
+    box-shadow: 0px 5px 10px 0px var(--color_primary);
+}
+
+.kiri4 div:first-child{
+    font-size: 2em;
+    line-height: 1.2;
+    font-weight: 500 ;
+    letter-spacing: 2px;
+    /* width: 70%; --> bisa pakai width untuk ngecilin atau padding*/
+    /* padding-right: 30%; */
+    color: var(--textprimary);
+    /* background-color: magenta; */
+}
+.kiri4 div:nth-child(2){
+    color: var(--textsecondary);
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-top: 5%;
+    padding-right: 25%;
+    /* background-color: yellow; */
+}
+
+.kanan4 div{
+    /* display: flex; */
+    /* background-color: black; */
+    margin: 5vh 10vh 0vh;
+}
+
+.kanan4 button{
+    font-size: 1em;
+    background-color: var(--color_primary);
+    border: transparent;
+    border-radius: 30px;
+    padding: 17px 35px;
+    font-weight: 700;
+    outline: transparent;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    
+}
+.kanan4 button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*====================*/
+/* FREE_TRIAL END */
+/*====================*/
+
+
+
+
+/*====================*/
+/* SUBCSRIBE START */
+/*====================*/
+.kiri5{
+    padding-top: 8vh;
+    padding-right: 15vh ;
+    /* background-color: var(--color_primary); */
+}
+.kanan5 div:first-child{
+    color: var(--textprimary);
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-top: 5%;
+    /* padding-right: 25%; */
+    /* background-color: yellow; */
+}
+.kanan5 div:nth-child(2){
+    margin-top: 4vh;
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    font-size: 0.6em;
+    font-weight: 500;
+}    
+.kanan5 input{
+    padding: 20px 40px;
+    /* border-radius: 30px; */
+    background-color: transparent;
+    border: transparent;
+    font-weight: 700;
+    color: var(--textprimary);
+    font-size: 1.5em;
+    
+}    
+.kanan5 input:focus{
+    outline: none;
+}
+.kanan5 div:nth-child(3){
+    margin-top: 5vh;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-color: lime; */
+}
+.kanan5 button{
+    font-size: 1em;
+    background-color: var(--color_primary);
+    border: transparent;
+    border-radius: 30px;
+    padding: 20px 29.6vh;
+    font-weight: 700;
+    outline: transparent;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    letter-spacing: 0px;
+    color: var(--textprimary);
+}
+.kanan5 button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.kanan5 div:nth-child(4){
+    color:var(--textprimary);
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-top: 5%;
+    /* padding-right: 25%; */
+    /* background-color: yellow; */
+}
+/*====================*/
+/* SUBCSRIBE END */
+/*====================*/
+
+
+/*====================*/
+/* FOOTER START */
+/*====================*/
+
+.footer{
+    padding: 8% 10% 2vh;
+    /* background-color: yellowgreen; */  
+}
+.footer_font{
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 15px 0px;
+    color: var(--textprimary);
+}
+.kirifooter div:nth-child(2){
+margin: 1.5vh 0vh;
+color: var(--textprimary);
+}
+.kirifooter div:nth-child(3){
+color: var(--textprimary);
+}
+.kananfooter{
+    display: flex;
+}
+.menu_bawah li{
+    margin: 2vh 0vh;
+    list-style: none;
+    color: var(--textsecondary);
+    
+}
+.menu_bawah li:first-child{
+    margin-top: 4vh;
+}
+
+.copy h3, .about h3, .social h3{
+    color: var(--textprimary);
+    /* background-color: turquoise; */
+}
+
+.copy h6{
+    margin-top: 20vh ;
+    color: var(--textsecondary);
+    /* background-color: yellow; */
+}
+
+.social h6{
+    margin-top: 23.5vh ;
+    color: var(--textsecondary);
+    text-transform: capitalize;
+}
+/*====================*/
+/* FOOTER END */
+/*====================*/
+
+
+
+/*====================*/
+/* FOR TABLET */
+/*====================*/
+@media only screen and (max-width: 768px){
+    /* header start */
+    .bar{
+        display: block;
+    }
+    .header_menu{
+        display: none;
+    }
+    /* header end */
+
+    /* jumbotron1 start*/
+    .kiri{
+        padding-top: 10vh;
+    }
+    .kiri div:first-child{
+        font-size: 1.8em;
+        /* padding: 10%; */
+        line-height: 1;
+    }
+    .kiri div:nth-child(2){
+        font-size: 0.8em;
+        margin-top: 2%;
+        padding-right: 15%;
+       
+    }
+    .kanan{
+        /* background-color: var(--color_primary); */
+        padding-top: 2vh;
+    }
+    .input{
+        font-size: 0.6em;
+        padding: 5px;
+        font-weight: 500;
+        padding: 5px;
+        margin: 0px 25px 0px 7%
+        
+    }
+    .kiri button{
+        font-size: 9px;
+        border: transparent;
+        padding: 10px 12px;
+        font-weight: 600;
+    
+    }
+
+    /* jumbotron1 end */
+}
+ 
+
+
+/* -------------------- */
+/* FOR MOBILE*/
+/* -------------------- */
+@media only screen and (max-width: 480px){
+    /* header start */
+    .container_head{
+        /* background-color: lightcyan; */
+        padding: 1.5% 10%;
+        
+    }
+    
+    .bar{
+        display: block;
+    }
+    .header_menu{
+        display: none;
+    }
+    /* header end */
+
+
+    /* jumbotron1 start */
+    .jumbotron1{
+        flex-direction: column;
+        /* background-color: crimson; */
+    }
+    .jumbotron1 .kanan{
+        order: -1 ;
+        margin-bottom: -5vh;
+        /* background-color: cornflowerblue; */
+    }
+    .kiri div:first-child{
+        font-size: 1.5em;
+        padding-right: 0%;
+        line-height: 1;
+        /* background-color: yellow ; */
+    }
+    .kiri div:nth-child(2){
+        margin-top: 2%;
+        padding-right: 0%;
+    }
+    .kiri button{
+        padding: 10px 35px;
+        font-weight: 600;
+    }
+    .padding_proj{
+        padding: 0% 10%;
+    }
+    
+    /* jumbotron1 end */
+
+}
