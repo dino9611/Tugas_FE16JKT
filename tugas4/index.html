@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/601a342285.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Potato Head</h2>
+            <div class="toggle"><i class="fas fa-bars"></i></div>
+        </header>
+        <video src="./video/potato.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Eating Potato</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis adipisci molestiae dolor dolorum
+                repellendus non praesentium voluptatem ab, nihil beatae!
+            </p>
+            <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+            <li>
+                <i class="fab fa-twitter"></i>
+            </li>
+            <li>
+                <i class="fab fa-facebook-f"></i>
+            </li>
+            <li>
+                <i class="fab fa-instagram"></i>
+            </li>
+        </ul>
+    </section>
+    <div class="menu">
+        <!-- <div class="active"><i class="fas fa-times"></i></div> -->
+        <ul>
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>Menu</li>
+            <li><a href=""></a>Blog</li>
+            <li><a href=""></a>News</li>
+            <li><a href=""></a>Contact</li>
+        </ul>
+    </div>
+</body>
+<script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', function () {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+    })
+</script>
+
+</html>
