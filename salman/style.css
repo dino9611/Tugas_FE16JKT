@@ -1,0 +1,491 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--textprimary);
+    scroll-behavior: smooth;
+    /* background-color: violet; */
+    /* border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; */
+}
+:root{
+    --color_secondary:#ff7f50;
+    --color_primary:#fff5ee;
+    --color_third:#9c9792ad;
+    --color_forth:#fff6e7;
+    --text_primary:#2d394d;
+    --text_secondary:#a9acb3;
+    --text_third:#272f46;
+
+}
+
+.round{
+    background-color: pink;
+    height: 300px;
+    border-radius: 200px;
+    width: 80px;
+    overflow: hidden;
+}
+
+.header0{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 95%;
+    bottom: 0px;
+    left: 0px;
+    background-color: var(--color_secondary);
+    border-bottom-right-radius: 10vh;
+    border-top-right-radius: 10vh;
+
+}
+
+.bar{
+    height: 4vh;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.bar1{
+    position: relative;
+    top: 30vh;
+    color: white;
+}
+
+.bar2{
+    position: relative;
+    top: -30vh;
+}
+
+/* bigotron2 start */
+.header1{
+    margin: 50px 90px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: var(--color_secondary); */
+    align-items: center;
+}
+
+.header1 > div{
+    padding: 0px 0px;
+}
+.text1{
+    font-size: 5vh;
+    color: var(--text_secondary);
+    margin-left: 5%;
+}
+.normal{
+    color: var(--text_primary);
+    font-weight: bold;
+}
+
+.text2{
+  height: 4vh;
+  margin-left: 20vh;
+  margin-top: 2vh;
+}
+.input{
+    border:2px black;
+    border-radius: 15vh;
+    background-color:#fbfcfe;
+    display: block;
+    justify-content: center;
+    width: 50vh;
+    font-weight: 600;
+    padding-left: 5%;
+    height: 7vh;
+    margin-right: 40vh;
+
+}
+
+.input:focus{
+    outline: none;
+}
+
+.text3{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text30{
+    display: flex;
+    flex-direction: column;
+    font-size: 2vh;
+    justify-content: center;
+    font-weight: bold;
+    position: relative;
+    left: -2vh;
+    padding-right: 1px;
+}
+
+.text31{
+    color:var(--text_primary);
+    font-weight: 30vh;
+}
+
+.text32{
+    color: var(--color_secondary);
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text32 a:hover{
+    color: pink;
+}
+
+
+.text33{
+    height: 10vh;
+    margin-left: 10px;
+    background-color: pink;
+    padding-left: 15px;
+    padding-top: 5px;
+
+}
+
+/* bigtron1 stop */
+
+
+/* bigotron2 start */
+
+.header2{
+    display: flex;
+    margin-left: 10%;
+    justify-content: space-between;
+    /* background-color: brown; */
+    margin-top: 3%;
+}
+
+.tuls1{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+    width: 50vh;
+}
+
+.tuls11{
+    background-color: var(--color_forth);
+    height: 25vh;
+    border-radius: 20px;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tuls111{
+    height: 50vh;
+    position: relative;
+    top: -190px;
+    left: -20px;
+    /* margin-bottom: 90%; */
+}
+
+.tuls112{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dc{
+    color: var(--text_third);
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 10%;
+    position: relative;
+    left: -20px;
+
+}
+
+.sm{
+    margin-bottom: 10%;
+    margin-left: 20%;
+    padding: 10%;
+    width: 15vh;
+    height: 2vh;
+    border-radius: 20px;
+    background-color: var(--color_secondary);
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    font-weight: bold;
+    position: relative;
+    left: -50px;
+    top: -20px;
+}
+
+.tuls12{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fbfcfe;
+    border-radius: 30px;
+    margin-top: 30px;
+    height: 87vh;
+    margin-bottom: 30%;
+
+}
+
+.tuls121{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.tuls1211{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tuls1212{
+    position: relative;
+    top: -15px;
+    height: 8vh;
+}
+.tuls122{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 40px;
+
+}
+
+.kotak{
+    background-color: #7a1dde;
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+}
+
+.ket{
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.dolar{
+    margin-right: 30px;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.ket1{
+    font-weight: 600;
+    color: var(--text_third);
+}
+
+.ket2{
+    font-size: 15px;
+    color: var(--color_secondary);
+}
+
+.kotak2{
+    background-color: var(--color_secondary);
+}
+.kotak3{
+    background-color: #3865fd;
+}
+
+.kotak4{
+    background-color: #e42a6b;
+}
+
+/* bigotron2 stop */
+
+/* bigotron3 start */
+.tuls2{
+    background-color: var(--color_primary);
+    width: 60vh;
+    margin-right: 2%;
+    margin-top: 80px;
+    margin-left: 3%;
+    height: 115vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    height: 70vh;
+    position: relative;
+    top: -200px;
+    left: -20px;
+}
+
+.tuls21{
+    font-size: 50px;
+    margin-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    color: var(--text_third);
+    position: relative;
+    top: -190px;
+}
+
+.tuls211{
+    display: flex;
+    position: relative;
+    top: -160px;
+    margin-left: 50px;
+}
+
+.app{
+    margin-right: 10px;
+    height: 7vh;
+}
+
+.solid{
+    height: 7vh;
+}
+.tuls22{
+  /* background-color: white; */
+  margin-left: 50px;
+  padding-right: 100px;
+  position: relative;
+  top: -120px;
+  color: var(--text_secondary);
+}
+
+.tuls221{
+    display: flex;
+    height: 2vh;
+}
+
+.box{
+    background-color: white;
+    margin-left: 50px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    color: var(--color_secondary);
+    font-weight: bold;
+    position: relative;
+    bottom: -40px;
+}
+
+/* bigotron3 stop */
+
+/* bigotron4 start */
+.tuls3{
+    /* background-color: var(--color_secondary); */
+    margin-top: 6%;
+    margin-right: 6%;
+    width: 50vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.images{
+    height: 40vh;
+    text-align: center;
+    padding-top: 1px;
+    position: relative;
+    top: -30px;
+    left: -20px;
+}
+
+.harga{
+    margin-bottom: 20vh;
+}
+
+.harga1{
+    color: var(--text_secondary);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.harga2{
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: 600;
+    background-color: #fbfcfe;
+    border-radius: 30px;
+    padding: 3% 15px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -18vh;
+}
+.trans{
+    color: var(--text_secondary);
+    font-weight: bold;
+}
+
+.arrow{
+    height: 4vh;
+}
+
+.intro1{
+    background-color: #fbfcfe;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    border-radius: 30px;
+    position: relative;
+    top: -120px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.intro11{
+    height: 1vh;
+    background-color: #ffc0cb;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -10px;
+}
+
+.intro111{
+    position: relative;
+    left: -18px;
+    top: -2px;
+}
+
+.kanan{
+    margin-right: 50px;
+    padding-bottom: 30px;
+    position: relative;
+    top: -5px;
+}
+.nama{
+    font-weight: bold;
+}
+
+.jabatan{
+    color: var(--text_secondary);
+}
+
+.pay{
+    font-weight: bold;
+}
+
+.send{
+    background-color: var(--color_secondary);
+    margin-bottom: 50px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: -80px;
+}
