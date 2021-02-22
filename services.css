@@ -1,0 +1,62 @@
+:root{
+  --color_primary: rgb(48, 48, 48);
+  --color_text: #c7a234;
+}
+.container___2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container___2 div:first-child{
+  margin-bottom: 13px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(145, 144, 144);
+}
+.container___2 div:nth-child(2){
+  font-size: 55px;
+  line-height: 1.4;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 6%;
+  color: var(--color_primary)
+}
+.container___3{
+  display: flex;
+  padding: 0px 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container___3 > div{
+  flex: 1;
+  margin-right: 20px;
+  background-color: rgb(240, 240, 240);
+  height: 300px;
+}
+.gambar_1 div{
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+}
+.gambar_1 div:first-child{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  color: #c7a234;
+  font-size: 70px;
+}
+.gambar_1 div:nth-child(2){
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(145, 144, 144);
+  margin-bottom: 5px;
+}
+.gambar_1 div:last-child{
+  font-size: 16px;
+  color: var(--color_primary);
+}
+.last{
+  padding-bottom: 200px;
+}
+.kosong_1{
+  background-color: white !important;
+}
