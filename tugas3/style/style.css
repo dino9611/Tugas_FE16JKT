@@ -188,21 +188,21 @@ input::placeholder {
 }
 
 .box-image {
-    background: url(/tugas3/img/box.svg);
+    background: url(../img/box.svg);
     background-size: cover;
     height: 25vh;
     border-radius: 20px 20px 0 0;
 }
 
 .box-image2 {
-    background: url(/tugas3/img/box\ 2.svg);
+    background: url(../img/box\ 2.svg);
     background-size: cover;
     height: 25vh;
     border-radius: 20px 20px 0 0;
 }
 
 .box-image3 {
-    background: url(/tugas3/img/box\ 3.svg);
+    background: url(../img/box\ 3.svg);
     background-size: cover;
     height: 25vh;
     border-radius: 20px 20px 0 0;
@@ -389,7 +389,7 @@ input::placeholder {
 .box-card {
     width: 45%;
     height: 9vh;
-    background: url(/tugas3/img/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg);
+    background: url(../img/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg);
     background-size: cover;
     border-radius: 15px;
 }
@@ -447,7 +447,7 @@ input::placeholder {
 .card-list--box {
     width: 90%;
     height: 8vh;
-    background: url(/tugas3/img/studio_session-052-edit.jpg);
+    background: url(../img/studio_session-052-edit.jpg);
     background-size: cover;
     border-radius: 10px;
 }
@@ -455,7 +455,7 @@ input::placeholder {
 .card-list--box2 {
     width: 90%;
     height: 8vh;
-    background: url(/tugas3/img/693-06324100en_Masterfile.jpg);
+    background: url(../img/693-06324100en_Masterfile.jpg);
     background-size: cover;
     border-radius: 10px;
 }
@@ -463,7 +463,7 @@ input::placeholder {
 .card-list--box3 {
     width: 90%;
     height: 8vh;
-    background: url(/tugas3/img/75f612eee242cf76e23444d80565ea2c--blue-backgrounds.jpg);
+    background: url(../img/75f612eee242cf76e23444d80565ea2c--blue-backgrounds.jpg);
     background-size: cover;
     border-radius: 10px;
 }
@@ -471,7 +471,7 @@ input::placeholder {
 .card-list--box4 {
     width: 90%;
     height: 8vh;
-    background: url(/tugas3/img/istockphoto-1149033371-612x612.jpg);
+    background: url(../img/istockphoto-1149033371-612x612.jpg);
     background-size: cover;
     border-radius: 10px;
 }
@@ -479,7 +479,7 @@ input::placeholder {
 .card-list--box5 {
     width: 90%;
     height: 8vh;
-    background: url(/tugas3/img/Travis-Curry-Bright-Colored-Backdrops-Savage-01.jpg);
+    background: url(../img/Travis-Curry-Bright-Colored-Backdrops-Savage-01.jpg);
     background-size: cover;
     border-radius: 10px;
 }
