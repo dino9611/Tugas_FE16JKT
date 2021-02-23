@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture Trip</title>
+    <link rel="shortcut icon" href="./images/cropped-favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/601a342285.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="">
+                    <div class="">
+                        <a class="navbar-brand h1" style="color: black;" href="#">
+                            <img src="./images/cropped-favicon.png" alt="img" width="40" height="40">
+                            culture trip
+
+                        </a>
+                    </div>
+                    <div>
+                        <ul class="list-group list-group-horizontal me-5 bg-sucess ">
+                            <li class="me-4">Book Good</li>
+                            <li class="me-4">Travel Good</li>
+                            <li>Feel Good</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-flex" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                US$
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="d-flex justify-content-center">
+                                    Select Currecy
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item d-flex justify-content-between" href="#">
+                                        <div>
+                                            US$
+                                        </div>
+                                        <div>
+                                            US Dollar
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item d-flex justify-content-between" href="#">
+                                        <div>
+                                            €
+                                        </div>
+                                        <div>
+                                            Euro
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item d-flex justify-content-between" href="#">
+                                        <div>
+                                            £
+                                        </div>
+                                        <div>
+                                            British Pound
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item d-flex justify-content-between" href="#">
+                                        <div>
+                                            AU$
+                                        </div>
+                                        <div>
+                                            Australian Dollar
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item d-flex justify-content-between" href="#">
+                                        <div>
+                                            CA$
+                                        </div>
+                                        <div>
+                                            Canadian Dollar
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item d-flex justify-content-between" href="#">
+                                        <div>
+                                            NZ$
+                                        </div>
+                                        <div>
+                                            New Zealand Dollar
+                                        </div>
+                                    </a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Destination</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Places to Stay</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Experiences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">My Plans</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-dark rounded-pill" type="submit">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CAROUSEL -->
+    <div id="carouselFade" class="carousel slide carousel-fade mb-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active slide" style="background-image: url(./images/slide-4.jpg);">
+                <div class="container">
+                    <form class="d-flex flex-column justify-content-center align-items-center mt-5">
+                        <p class="h1 fw-bold">Book hand-picked stays and experiences</p>
+                        <div class="search">
+                            <input class="form-control" type="search" placeholder="Expirience a city"
+                                aria-label="Search">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- 4 PHOTOS ROW 1-->
+        <div class="container m-atas">
+            <div class="h4">
+                Home and Away
+            </div>
+            <div class="lead mb-3">
+                No need to go far – there's magic right on your doorstep
+            </div>
+            <div class="row gambar-kecil">
+                <div class="col-3">
+                    <div class="box-foto">
+                        <img src="https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2020/09/cffhck.jpg"
+                            alt="" class="zoom" height="100%" width="100%">
+                        <div class="bulat d-flex justify-content-center align-self-center">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="box-tulisan1 text-secondary">
+                        SEE & DO
+                    </div>
+                    <div class="box-tulisan2 h6 fw-bold">
+                        10 Amazing Things to See And Do in Las Vegas
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="box-foto">
+                        <img src="https://img.theculturetrip.com/320x213/wp-content/uploads/2019/07/pjxebe.jpg"
+                            alt="img" class="zoom" height="100%" width="100%">
+                        <div class="bulat d-flex justify-content-center align-self-center">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="box-tulisan1 text-secondary">
+                        GUIDES & TIPS
+                    </div>
+                    <div class="box-tulisan2 h6 fw-bold">
+                        11 Amazing Best Hotels in Las Vegas
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="box-foto">
+                        <img src="https://img.theculturetrip.com/320x213/wp-content/uploads/2020/12/atlantic-bay-resort-header-e1610383805593.jpg"
+                            alt="img" class="zoom" height="100%" width="100%">
+                        <div class="bulat d-flex justify-content-center align-self-center">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="box-tulisan1 text-secondary">
+                        PLACES TO STAY
+                    </div>
+                    <div class="box-tulisan2 h6 fw-bold">
+                        The Best Hotels on Key Largo, Florida, for Every Traveler
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="box-foto">
+                        <img src="https://img.theculturetrip.com/320x213/wp-content/uploads/2020/12/ary4xw-e1610984433273.jpg"
+                            alt="img" class="zoom" height="100%" width="100%">
+                        <div class="bulat d-flex justify-content-center align-self-center">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="box-tulisan1 text-secondary">
+                        PLACES TO STAY
+                    </div>
+                    <div class="box-tulisan2 h6 fw-bold">
+                        The Best Boutique Hotels in Hawaii
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 6 CARDS ROW -->
+        <div class="container m-atas">
+            <div class="h4">
+                Explore Cities
+            </div>
+            <div class="lead mb-3">
+                Culture Trip insider travel guides to the world's most exciting cities
+            </div>
+            <div class="row row-cols-1 row-cols-md-6">
+                <div class="col">
+                    <div class="card kartu">
+                        <img src="https://img.theculturetrip.com/450x300/wp-content/uploads/2019/04/ia_0449_venice_marianna-tomaselli_final_header.jpg"
+                            class="card-img-top zoom" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title d-flex align-self-center justify-content-center">Venice</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card kartu">
+                        <img src="https://img.theculturetrip.com/450x300/wp-content/uploads/2019/04/ia_0441_madrid_ana-galvan_final_header-1.jpg"
+                            class="card-img-top zoom" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title d-flex align-self-center justify-content-center">Madrid</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card kartu">
+                        <img src="https://img.theculturetrip.com/450x300/wp-content/uploads/2019/04/san-francisco_gs_header.jpg"
+                            class="card-img-top zoom" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title d-flex align-self-center justify-content-center">San Francisco</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card kartu">
+                        <img src="https://img.theculturetrip.com/450x300/wp-content/uploads/2019/04/ia_0440_florence_giordano-poloni_final_header.jpg"
+                            class="card-img-top zoom" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title d-flex align-self-center justify-content-center">Florence</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card kartu">
+                        <img src="https://img.theculturetrip.com/450x300/wp-content/uploads/2019/04/ia_0447_sydney_nancy-liang_final_header.jpg"
+                            class="card-img-top zoom" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title d-flex align-self-center justify-content-center">Sydney</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card kartu">
+                        <img src="https://img.theculturetrip.com/450x300/wp-content/uploads/2019/04/ia_0444_city-header_milan_marianna-tomaselli.jpg"
+                            class="card-img-top zoom" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title d-flex align-self-center justify-content-center">Milan</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BANNER -->
+        <div class="container m-atas d-flex justify-content-between grad py-3">
+            <div class="h2 fw-bold align-self-center">
+                BOOK TRAVEL THAT'S GOOD & MAKES YOU FEEL GOOD
+            </div>
+            <div class="d-flex flex-column">
+                <div class="justify-content-center align-self-center">
+                    <img src="./images/cropped-favicon.png" alt="img" height="40px" width="40px">
+                </div>
+                <div class="h5 fw-bold">
+                    cultrue trip
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 PHOTOS ROW 1 -->
+        <div class="container m-atas">
+            <div class="h4">
+                Stays You'll Love in 2021
+            </div>
+            <div class="lead mb-3">
+                We've found the best destinations – and some of the coolest places to stay
+            </div>
+            <div class="row gambar-kecil">
+                <div class="col-4">
+                    <div class="box-foto2">
+                        <img src="https://img.theculturetrip.com/768x512/wp-content/uploads/2020/12/finca-rosa-blanca-costa-rica.jpg"
+                            alt="img" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box-foto2">
+                        <img src="https://img.theculturetrip.com/768x512/wp-content/uploads/2020/12/the-capaldi-1.jpg"
+                            alt="img" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box-foto2">
+                        <img src="https://img.theculturetrip.com/768x512/wp-content/uploads/2020/12/nusfjord-artcic-resort-2.jpg"
+                            alt="img" height="100%" width="100%">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 px-4">
+                    <div class="box-tulisan3">
+                        <div class="h5 fw-bold text-uppercase">
+                            finca rosa, costa rica
+                        </div>
+                        <div class="">
+                            A coffee plantation with serious green credentials.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 px-4">
+                    <div class="box-tulisan3">
+                        <div class="h5 fw-bold text-uppercase">
+                            the capaldi maroco
+                        </div>
+                        <div class="">
+                            Calm retreat in the foothills of the Atlas Mountains.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 px-4">
+                    <div class="box-tulisan3">
+                        <div class="h5 fw-bold text-uppercase">
+                            nusfjord resort, norway
+                        </div>
+                        <div class="">
+                            North of the Arctic - and with an open-air spa.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4 PHOTOS ROW 2-->
+        <div class="container m-atas">
+            <div class="h4">
+                New Year's Travelutions
+            </div>
+            <div class="lead mb-3">
+                Travel with purpose – book locally run, ecofriendly places to stay and experiences
+            </div>
+            <div class="row gambar-kecil">
+                <div class="col-3">
+                    <div class="box-foto">
+                        <img src="https://img.theculturetrip.com/320x213/wp-content/uploads/2020/12/e1w1bf2.jpg"
+                            alt="img" class="zoom" height="100%" width="100%">
+                        <div class="bulat d-flex justify-content-center align-self-center">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="box-tulisan1 text-secondary">
+                        SEE & DO
+                    </div>
+                    <div class="box-tulisan2 h6 fw-bold">
+                        Greenest Cities in the World
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="box-foto">
+                        <img src="https://img.theculturetrip.com/320x213/wp-content/uploads/2021/02/monteverde-lodge-and-gardens.jpg"
+                            alt="img" class="zoom" height="100%" width="100%">
+                        <div class="bulat d-flex justify-content-center align-self-center">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="box-tulisan1 text-secondary">
+                        GUIDES & TIPS
+                    </div>
+                    <div class="box-tulisan2 h6 fw-bold">
+                        Affordable Ecolodges in Costa Rica
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="box-foto">
+                        <img src="https://img.theculturetrip.com/320x213/wp-content/uploads/2020/12/to-armiro-boutique-houses-e1608285038704.jpg"
+                            alt="img" class="zoom" height="100%" width="100%">
+                        <div class="bulat d-flex justify-content-center align-self-center">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="box-tulisan1 text-secondary">
+                        PLACES TO STAY
+                    </div>
+                    <div class="box-tulisan2 h6 fw-bold">
+                        Ecofriendly Stays in Greece
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="box-foto">
+                        <img src="https://img.theculturetrip.com/320x213/wp-content/uploads/2020/12/el-dorado-nature-reserve-.jpg"
+                            alt="img" class="zoom" height="100%" width="100%">
+                        <div class="bulat d-flex justify-content-center align-self-center">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="box-tulisan1 text-secondary">
+                        PLACES TO STAY
+                    </div>
+                    <div class="box-tulisan2 h6 fw-bold">
+                        Best Ecolodges in Colombia
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4 PHOTOS ROW 3-->
+        <div class="container m-atas">
+            <div class="h4">
+                Best of Korea
+            </div>
+            <div class="lead mb-3">
+                Discover more about this fascinating culture with the Korea Tourism Organization
+            </div>
+            <div class="row gambar-kecil">
+                <div class="col-3">
+                    <div class="box-foto">
+                        <img src="https://img.theculturetrip.com/320x213/wp-content/uploads/2020/11/26201362013060161k_templefood_gosangrestaurant.jpg"
+                            alt="img" class="zoom" height="100%" width="100%">
+                        <div class="bulat d-flex justify-content-center align-self-center">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="box-tulisan1 text-secondary">
+                        FOOD & DRINK
+                    </div>
+                    <div class="box-tulisan2 h6 fw-bold">
+                        Why you should try Korean temple cuisine
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="box-foto">
+                        <img src="https://img.theculturetrip.com/320x213/wp-content/uploads/2020/11/article_1_va-edit.jpg"
+                            alt="img" class="zoom" height="100%" width="100%">
+                        <div class="bulat d-flex justify-content-center align-self-center">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="box-tulisan1 text-secondary">
+                        SEE & DO
+                    </div>
+                    <div class="box-tulisan2 h6 fw-bold">
+                        Find your true self on a Korean Templestay
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="box-foto">
+                        <img src="https://img.theculturetrip.com/320x213/wp-content/uploads/2020/11/article_2_re.jpg"
+                            alt="img" class="zoom" height="100%" width="100%">
+                        <div class="bulat d-flex justify-content-center align-self-center">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="box-tulisan1 text-secondary">
+                        HEALTH & WELLNESS
+                    </div>
+                    <div class="box-tulisan2 h6 fw-bold">
+                        Dreamy detox destinations in South Korea
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="box-foto">
+                        <img src="https://img.theculturetrip.com/320x213/wp-content/uploads/2020/11/article_3_vanessa-edit-1.jpg"
+                            alt="img" class="zoom" height="100%" width="100%">
+                        <div class="bulat d-flex justify-content-center align-self-center">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="box-tulisan1 text-secondary">
+                        SEE & DO
+                    </div>
+                    <div class="box-tulisan2 h6 fw-bold">
+                        Outdoor adventures across Korea
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BIG PHOTO -->
+        <div class="container m-atas">
+            <div class="h3 fw-bold">
+                The Best of Culture Trip
+            </div>
+            <div class="lead">
+                Top travel stories from around the world
+            </div>
+            <div class="row mt-5 box-besar">
+                <div class="col-md-4">
+                    <div class="box-foto pb-2">
+                        <img src="https://img.theculturetrip.com/450x300/wp-content/uploads/2020/09/rogerio-toledo-nrp9i1utqug-unsplash.jpg"
+                            alt="img" class="zoom" height="100%" width="100%">
+                        <div class="bulat d-flex justify-content-center align-self-center">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="box-tulisan">
+                        <p class=" text-secondary text-uppercase">see & do</p>
+                    </div>
+                    <div class="box-tulisan ">
+                        <p class="h5 fw-bold">Culture Trip's Guide to the Faroe Islands</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box-foto pb-2">
+                        <img src="https://img.theculturetrip.com/450x300/wp-content/uploads/2020/09/ameer-basheer-6er4gfopiny-unsplash-e1600360986992.jpg"
+                            alt="img" class="zoom" height="100%" width="100%">
+                        <div class="bulat d-flex justify-content-center align-self-center">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="box-tulisan">
+                        <p class="text-secondary text-uppercase">guide & tips</p>
+                    </div>
+                    <div class="box-tulisan">
+                        <p class="h5 fw-bold">Culture Trip's Guide to San Diego</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row box-kecil mb-4">
+                        <div class="col-md-6 ">
+                            <img src="https://img.theculturetrip.com/320x213/wp-content/uploads/2020/09/b1mtym-e1599148575781.jpg"
+                                alt="img" class="zoom" height="100%" width="100%">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-secondary text-uppercase">
+                                guide & tips
+                            </div>
+                            <div class="fw-bold">
+                                Culture Trip's Guide to the Bahamas
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row box-kecil mb-4">
+                        <div class="col-md-6">
+                            <img src="https://img.theculturetrip.com/320x213/wp-content/uploads/2020/09/ac0g6t.jpg"
+                                alt="img" class="zoom" height="100%" width="100%">
+                        </div>
+                        <div class="col-md-6">
+                            <div class=" text-secondary text-uppercase">
+                                guide & tips
+                            </div>
+                            <div class="fw-bold">
+                                Culture Trip's Guide to Tasmania
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row box-kecil mb-4">
+                        <div class="col-md-6">
+                            <img src="https://img.theculturetrip.com/320x213/wp-content/uploads/2020/09/h8x9j2-e1600362580322.jpg"
+                                alt="img" class="zoom" height="100%" width="100%">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-secondary text-uppercase">
+                                guide & tips
+                            </div>
+                            <div class="fw-bold">
+                                Culture Trip's Guide to Naples, Italy
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 PHOTOS ROW 2 -->
+        <div class="container m-atas">
+            <div class="h4">
+                Online Cooking with Culture Trip
+            </div>
+            <div class="lead mb-3">
+                Shake up your routine with dishes taught by local chefs – book your spot today
+            </div>
+            <div class="row gambar-kecil">
+                <div class="col-4">
+                    <div class="box-foto2">
+                        <img src="https://img.theculturetrip.com/768x512/wp-content/uploads/2020/12/thai-curry.jpg"
+                            alt="img" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box-foto2">
+                        <img src="https://img.theculturetrip.com/768x512/wp-content/uploads/2020/12/mexican-salsa.jpg"
+                            alt="img" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box-foto2">
+                        <img src="https://img.theculturetrip.com/768x512/wp-content/uploads/2020/12/mexican-mole.jpg"
+                            alt="img" height="100%" width="100%">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 px-4">
+                    <div class="box-tulisan3">
+                        <div class="h5 fw-bold text-uppercase">
+                            thai classics
+                        </div>
+                        <div class="">
+                            Enjoy the sizzling sounds and spices of Thai curry
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 px-4">
+                    <div class="box-tulisan3">
+                        <div class="h5 fw-bold text-uppercase">
+                            mexican salsa
+                        </div>
+                        <div class="">
+                            Whisk up two zingy salsas to enjoy with friends
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 px-4">
+                    <div class="box-tulisan3">
+                        <div class="h5 fw-bold text-uppercase">
+                            mexican mole
+                        </div>
+                        <div class="">
+                            Discover the secrets to Mexico's fruitty sauce
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 PHOTOS ROW 3 -->
+        <div class="container m-atas">
+            <div class="h4">
+                Culture Trip Original Series
+            </div>
+            <div class="lead mb-3">
+                Award-winning video and podcast series to reveal insider perspectives on amazing destinations
+            </div>
+            <div class="row gambar-kecil">
+                <div class="col-4">
+                    <div class="box-foto2">
+                        <img src="https://img.theculturetrip.com/768x512/wp-content/uploads/2019/05/oiny_homepage_tile.jpg"
+                            alt="img" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box-foto2">
+                        <img src="https://img.theculturetrip.com/768x512/wp-content/uploads/2019/05/hungerlust_homepage_tile.jpg"
+                            alt="img" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box-foto2">
+                        <img src="https://img.theculturetrip.com/768x512/wp-content/uploads/2019/05/beyond_hollywood_homepage_tile.jpg"
+                            alt="img" height="100%" width="100%">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 px-4">
+                    <div class="box-tulisan3">
+                        <div class="h5 fw-bold text-uppercase">
+                            only in new york
+                        </div>
+                        <div class="">
+                            An audio journey of the unexpected delights of NYC for the curious traveller
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 px-4">
+                    <div class="box-tulisan3">
+                        <div class="h5 fw-bold text-uppercase">
+                            hungerlust
+                        </div>
+                        <div class="">
+                            Some of the world's most vibrant cities are brought to life through local chefs and unique
+                            food
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 px-4">
+                    <div class="box-tulisan3">
+                        <div class="h5 fw-bold text-uppercase">
+                            beyond hollywood
+                        </div>
+                        <div class="">
+                            Travel to Pakistan, Scandinavia, Ghana and Hong Kong through the cultural meaning of film
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container-fluid warna-foot footpad text-white">
+                <div class="container d-flex justify-content-between ms-5">
+                    <div>
+                        <ul>
+                            <li class="text-uppercase fw-bold">the company</li>
+                            <li>about us</li>
+                            <li>the content team</li>
+                            <li>press office</li>
+                            <li>our app</li>
+                            <li>site map</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="text-uppercase fw-bold">contact us</li>
+                            <li>get in touch</li>
+                            <li>advertise & partner</li>
+                            <li>careers</li>
+                            <li>freelance jobs</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="text-uppercase fw-bold">legal</li>
+                            <li>privacy policy</li>
+                            <li>terms of use</li>
+                            <li>cookie policy</li>
+                            <li>branded content policy</li>
+                            <li>booking terms conditions</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="text-uppercase fw-bold">follow us</li>
+                            <li><i class="fab fa-facebook-square"></i> facebook</li>
+                            <li><i class="fab fa-twitter-square"></i> twitter</li>
+                            <li><i class="fab fa-pinterest-square"></i> pinterest</li>
+                            <li><i class="fab fa-instagram-square"></i> instagran</li>
+                            <li><i class="fab fa-youtube-square"></i> youtube</li>
+                            <li><i class="fab fa-linkedin"></i> linkedin</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container ms-5">
+                    <div class=" d-flex logo-foot">
+                        <div>
+                            <img src="./images/footer.png" alt="apple" height="50px" width="">
+                        </div>
+                        <div class="mt-4 ms-1">
+                            © 2021 the culture trip
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

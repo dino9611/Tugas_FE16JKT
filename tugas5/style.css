@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.zoom {
+    transition: transform .5s;
+    margin: 0 auto;
+}
+  
+.zoom:hover {
+    transform: scale(1.2); 
+}
+
+.bulat{
+    position: absolute;
+    font-size: 2vh;
+    color: white;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px ;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    z-index: 2;
+    cursor: pointer;
+}
+.bulat:hover{
+    color: black;
+}
+
+.box-besar{
+    height: 360px;
+}
+
+.box-kecil{
+    height: 120px;
+    overflow: hidden;
+}
+
+.kartu{
+    border-radius: 12px;
+}
+
+.box-foto{
+    height: 70%;
+    overflow: hidden;
+    position: relative;
+}
+.box-tulisan1{
+    height: 10%;
+}
+.box-tulisan2{
+    height: 20%;
+    
+}
+.box-tulisan3{
+    background-color: white;
+    margin-top: -3vh;
+    padding: 20px 15px;
+}
+
+.box-bawah-header{
+    margin: 0vh;
+}
+
+.slide{
+    height: 22rem;
+    /* background: tomato; */
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.slide-content{
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+}
+
+.search{
+    padding: 10px 300px;
+}
+
+.gambar-kecil{
+    height: 270px;
+}
+
+.box-foto2{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.m-atas{
+    margin-top: 7vh;
+}
+
+.grad{
+    background: rgb(255,115,66);
+    background: linear-gradient(120deg, rgba(255,115,66,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.warna-foot{
+    background-color: #121416;
+}
+
+footer ul{
+    text-transform: capitalize;
+    list-style: none;
+}
+
+.footpad{
+    padding: 5vh 0vh;
+}
+
+footer li:first-child{
+    margin-bottom: 20px;
+}
+
+.logo-foot{
+    margin: 20px 20px;
+}
